@@ -6,6 +6,6 @@ import (
 )
  
 func Handler(w http.ResponseWriter, r *http.Request) {
-  fmt.Fprintf(w, "<h1>Huya, Douyu, , Douyin, YY Live Agent</h1><center>Access path: https://jkio.ml/live/<platform>/id</center><h2>GitHub repository: https://github.com/leonoreshaw/iptv-go/</center>")
+  fmt.Fprintf(w, "<h1  style="text-align: center">Huya, Douyu, , Douyin, YY Live Agent</h1><center>Access path: https://jkio.ml/live/<platform>/id</center> <h4 style="text-align: center">GitHub repository: <a href="https://github.com/leonoreshaw/iptv-go/" style="text-align: center; display: block;">https://github.com/leonoreshaw/iptv-go/</a></h4>")
   return
 }
