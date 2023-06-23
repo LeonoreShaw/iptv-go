@@ -8,9 +8,9 @@ import (
 func Handler(w http.ResponseWriter, r *http.Request) {
   fmt.Fprintf(w, "
   
-    <div>Huya, Douyu, Douyin, YY Live Agent</div>
-    <div>Access path: https://jkio.ml/live/platform/id</div>
-    <div>GitHub repository: https://github.com/leonoreshaw/iptv-go</div>
+    <h2>Huya, Douyu, Douyin, YY Live Agent</h2>
+    <h4>Access path: https://jkio.ml/live/platform/id</h4>
+    <h4>GitHub repository: https://github.com/leonoreshaw/iptv-go</h4>
   
   ")
   return
