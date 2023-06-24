@@ -11,6 +11,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
   "<head>" +
   "<meta charset=\"UTF-8\">" +
   "<title>Live Stream on xxiao.org</title>" +
+  "<link rel="icon" href="https://raw.githubusercontent.com/LeonoreShaw/leonoreshaw.github.io/main/img/LogoHead.webp">"+
   "</head>" +
   "<body style=\"font-size: 24px; \">"+
   "<h1><center>Huya, Douyu, Douyin, YY Live Agent</center></h1>"+
