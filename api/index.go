@@ -7,6 +7,10 @@ import (
  
 func Handler(w http.ResponseWriter, r *http.Request) {
   fmt.Fprintf(w, "<body style=\"display: flex; align-items: center; flex-direction: column;\">"+
+  "<h1><center>Huya, Douyu, Douyin, YY Live Agent</center></h1>"+
+  "<p style=\"font-weight: bold;\"><center>Access path: <i>https://jkio.ml/platform/id</i></center></p>"+
+  "<h6><center>Learn more about it from GitHub Repository: <i><a href=\"https://github.com/LeonoreShaw/iptv-go\">https://github.com/LeonoreShaw/iptv-go</a></i></center></h6>"+
+  "<hr>"+
   "<h1><center>Huya, Douyu, &#x4F60;&#x597D;&#xFF0C;&#x4E16;&#x754C;&#xFF01; Douyin, YY Live Agent</center></h1>"+
   "<p style=\"font-weight: bold;\"><center>Access path: <i>https://jkio.ml/platform/id</i></center></p>"+
   "<h6><center>Learn more about it from GitHub Repository: <i><a href=\"https://github.com/LeonoreShaw/iptv-go\">https://github.com/LeonoreShaw/iptv-go</a></i></center></h6>"+
