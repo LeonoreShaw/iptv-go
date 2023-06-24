@@ -12,7 +12,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
   "<meta charset=\"UTF-8\">" +
   "<title>Live Stream on xxiao.org</title>" +
   "</head>" +
-  "<body style=\"display: flex; align-items: center; flex-direction: column; font-size: 24px; font-family: 'Microsoft YaHei', sans-serif;\">"+
+  "<body style=\"display: flex; flex-direction: column; font-size: 24px; font-family: 'Microsoft YaHei', sans-serif;\">"+
   "<h1><center>Huya, Douyu, Douyin, YY Live Agent</center></h1>"+
   "<p style=\"font-weight: bold;\"><center>Access path: <i>https://jkio.ml/platform/id</i></center></p>"+
   "<h6><center>Learn more about it from GitHub Repository: <i><a href=\"https://github.com/LeonoreShaw/iptv-go\" target=\"_blank\">https://github.com/LeonoreShaw/iptv-go</a></i></center></h6>"+
