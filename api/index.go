@@ -25,7 +25,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
   "<hr style=\"border: 5px; border-top: 2px \">"+
   "<hr style=\"border: 10px; border-top: 10px\">"+
   "<p><center>Live Stream on <a href=\"https://xxiao.org\" target=\"_blank\" style=\"color: hotpink\">xxiao.org</a>.</center></p>"+
-  "<p><center>&copy; 2020-2023 <a href=\"https://xxiao.org\" target=\"_blank\" style=\"color: hotpink\">Léonore</a> All rights reserved.</center></p>"+
+  "<p><center>&copy; 2020-2024 <a href=\"https://xxiao.org\" target=\"_blank\" style=\"color: hotpink\">Léonore</a> All rights reserved.</center></p>"+
   "</body>"+
   "</html>")
   return
